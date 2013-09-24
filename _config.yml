@@ -8,12 +8,12 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : 肖志健的脚步
 tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
+  name : Xiao ZhiJian
+  email : tiantang46800@gmail.com
+  github : tiantang46800
   twitter : username
   feedburner : feedname
 
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://tiantang46800.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -74,6 +74,7 @@ JB :
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
+  about_path : /about
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
