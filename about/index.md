@@ -4,7 +4,7 @@ title: "我是谁"
 description: ""
 category: 博主自己
 tags: 
-  - 自己2
+  - 自己
 ---
 {% include JB/setup %}
 ### 有趣的定位
@@ -16,7 +16,8 @@ tags:
     在上海，南京工作过几年，期间为"自己和我的朋友们科技有限公司"努力过，但是夭折了，很多好的想法未实施，但是我会回来的;
 ### 现在
     做培训，仍然是嵌入式
+### 未来
+    运作孵化基地，从学生到公司到参品，软件产业化，一直努力；
 ### 骚扰方式
-    过来拥抱我吧：tiantang46800@gmail.com;
-    我的github： [http:github.com/tiantang46800](http://github.com/tiantang46800);
-    //<ul><li>我的github：<a href='http://github.com/tiantang46800'>http://github.com/tiantang46800</a>;</li></ul>
+    过来拥抱我吧：tiantang46800@gmail.com
+    我的github： http://github.com/tiantang46800
