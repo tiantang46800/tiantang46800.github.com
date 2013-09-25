@@ -4,8 +4,7 @@ title: Teacher_Xiao
 tagline: 教学工作和自我成长
 ---
 {% include JB/setup %}
-<li><a href="/about">who am i</a></li>
-## first:)
+***<li><a href="/about">我是谁？</a></li>***
 
 ## 所有文章
 
