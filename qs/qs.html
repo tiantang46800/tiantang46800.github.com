@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>body {background-color:#e0f020}
+h1	{text-align:center}
+textarea {resize: none;}
+.resultBox{width:70%;}
+#maintext {
+	 background-color:#e0f020;
+	 width:70%;
+	 font-size: 14px; 
+	 overflow: scroll; 
+	 border-top-left-radius: 0; 
+	 border-top-right-radius: 0;
+}
+#delayset{width:80px}
+#main {background-color:white;width:95%;}</style>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+	<script src="lib/nebulas.js"></script>
+	<script src="lib/qs.js"></script>
+</head>
+<body>
+   <script>
+    var clipboard = new Clipboard('.btn');
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
+<div id="main" align="center">
+	<h1>不给班主任看的情书</h1>
+	<textarea rows="10" id="maintext">要写的情书内容请输入到这里</textarea>
+	<div id="setarea" align="center">
+		<p>接收方地址<textarea rows="1" id="username" ></textarea> <button  onclick="send_i_love_u()">发送情书</button>
+ </p>		
+	</div>
+	<div id="buttonarea" align="center">
+		<button  onclick="getnewmes()">查询我的最新情书</button>
+		<!-- <button  onclick="del()">del查询我的所有情书</button> -->
+
+	</div>
+</div>
+
+</body>
+</html>
